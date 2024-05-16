@@ -2,7 +2,7 @@ import { useState } from 'react';
 import AccordionItem from './AccordionItem';
 
 function Accordion({ data }) {
-  const [curOpen, setCurOpen] = useState(1);
+  const [curOpen, setCurOpen] = useState(null);
 
   return (
     <div className="accordion">
