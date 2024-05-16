@@ -14,7 +14,7 @@ function Accordion({ data }) {
           num={i}
           curOpen={curOpen}
           setCurOpen={setCurOpen}
-        />
+        >{faq.text}</AccordionItem>
       ))}
     </div>
   );
